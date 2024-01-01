@@ -17,7 +17,7 @@
 @include('user.layouts.header')
 {{-- @include('user.layouts.nav') --}}
 <div id="app">
-@yield('main-container')
+    @yield('main-container')
 </div>
 @vite('resources/js/app-website.js')
 @include('user.layouts.footer')

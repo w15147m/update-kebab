@@ -1,7 +1,6 @@
 @extends('user.layouts.main')
 @section('main-container')
-    <!-- Navbar content... -->
-    </nav>
+
     <div class="body_cont">
         <div id="main-container">
             <div id="container1">
@@ -9,7 +8,7 @@
             </div>
 
         </div>
-        <div id="container3" ">
+        <div id="container3" >
 
                 <div class="container" style="background-color: #ffffff;">
                     <div class="card-body nav_head">
@@ -125,24 +124,12 @@
                         </div>
                     </div>
                 </div>
-@endsection
+
           {{-- footer area --}}
         </div>
-
-
-
-
-
-
-
-
-    </div>
     </div>
 
-
-    </div>
-
-
+    @endsection
 
 
 
