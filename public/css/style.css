@@ -1,0 +1,300 @@
+.mr-auto,
+.mx-auto {
+    margin-left: 84px;
+}
+
+* {
+    color: #fffefe;
+    font-family: Katibe;
+    font-weight: bolder;
+}
+
+.logo {
+    height: 95px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.navbar-nav a.nav-link {
+    color: white;
+    /* background-color: aliceblue; */
+}
+
+.navbar-nav li {
+    margin-right: 35px;
+    font-size: 24px;
+    font-family: Katibe;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ce0019;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px #ba7700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(246, 245, 248);
+    text-shadow: 1px 1px 2px #ba7700;
+}
+
+.heading {
+    padding-top: 20%;
+    color: #fffefe;
+    /* font-size: 22px; */
+    font-family: Katibe;
+    font-weight: bolder;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: #fbc122;
+}
+
+.container {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.container .card {
+    height: 100%;
+    background: #fbc122;
+    /* padding-top: 20px; */
+}
+
+.container .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card-title {
+    padding-top: 67px;
+    /* flex-grow: 1; */
+    flex-grow: 1;
+}
+
+.card_head .card-title1 {
+    padding-top: -67px;
+    color: #fbc122;
+    font-family: Katibe;
+    /* padding: 25px; */
+    font-weight: bolder;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    height: 24px;
+}
+
+.bg-light {
+    background-color: #f8f9fa00 !important;
+}
+
+#main-container {
+    height: 70vh;
+    /* Set main container height to 80% of the viewport height */
+
+    overflow: hidden;
+    /* Hide overflow content */
+    background: #fbc122;
+}
+
+#container1 {
+    background-image: url(https://cdn.upmenu.com/static/themes/b0f8179d-e7d3-11e2-a35c-00163edcb8a0/assets-54/header.jpg);
+    height: 15vh;
+}
+
+#container2 {
+    background: #fbc122;
+
+}
+
+#container3 {
+    position: absolute;
+    top: 201px;
+    width: 100%;
+    background-color: rgba(228, 18, 18, 0);
+    /* Example background color */
+    z-index: 1;
+    /* Ensure container3 is in front of container1 and container2 */
+
+}
+
+.container4 {
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 20px;
+    /* padding-top: 5%; */
+    flex-direction: row;
+}
+.con4_body {
+    margin-right: 40px;
+    /* background-color: #ce0019; */
+    margin-left: 40px;
+}
+.imag_card .card-title {
+    padding-top: 5px;
+    color: #e01212;
+    font-family: Katibe;
+
+}
+
+.imag_card {
+    height: 350px;
+    background-color: #fffefe;
+
+}
+
+.col-md-4 {
+
+    margin-bottom: 30px;
+}
+
+.bg-light {
+    /* background-color: #f8f9fac7!important; */
+    padding-top: 0px;
+    padding: 10px;
+}
+
+.col-md-4 .card {
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: none;
+    border: 1px solid rgba(109, 107, 107, 0.247);
+}
+
+.container .card-body {
+
+    padding: 0;
+
+
+}
+
+.container .nav_head {
+    background: #fbc122;
+    margin-top: -20px;
+    padding: 20px;
+    width: 86.3%;
+    position: absolute;
+}
+
+.container .card-body .card-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #000000;
+}
+
+.container .card-body .card-text-Rs {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #ce0019;
+}
+
+.card-img-top {
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    padding-left: 0;
+    font-size: 15px;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    color: #ce0019;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ce0019;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background: #fbc122;
+}
+.card .icon{
+/* background-color: #746d62; */
+padding: 20px;
+/* margin-top: 20px; */
+
+
+}
+.jumbotron{
+
+    background-color: white;
+color: #000000;
+margin: 20px;}
+.jumbotron h4{
+    font-weight: bold;
+
+}
+.jumbotron p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+
+
+}
+form {
+    display: block;
+    margin-top: 10px;
+width: 90%;
+    margin-left: 25px;
+}
+.diteles{
+    margin-top: 20px;
+}
+.about .bg-danger {
+    background-color: #dc3545!important;
+    margin-top: 9px;
+}
+/* ******************************
+***********************************
+home css*************************
+*********************************
+***************************
+***************************/
+.btn-block {
+    display: block;
+    width: 80%;
+    margin: 10%;
+}
+
+
+/* Common styles for all screens */
+
+/* Styles for screens with a maximum width of 767 pixels (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+    /* Mobile-specific styles go here */
+
+
+  }
+
