@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('shops', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->string("location")->nullable();
+            $table->string("address")->nullable();
             $table->string("phone")->nullable();
+            $table->string("link")->nullable();
             $table->timestamps();
         });
     }
